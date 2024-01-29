@@ -1,0 +1,332 @@
+* {
+    font-family:serif; 
+    list-style: none;
+  }
+/*  main header CSS starts  */
+.main-header{
+    /* background-color: rgb(1, 6, 25); */
+    display: flex;
+    padding: 10px 30px;
+    justify-content: flex-end;
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding-right: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: large;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-bar ul li a:hover{
+    
+    transform: scale(0.2);
+    color: #00ff26 ;
+}
+    
+em{
+    font-weight: bold;
+}
+
+/*  main header CSS ends  */
+
+/* -- profile banner CSS starts -- */
+.main-banner{
+    display: flex;
+    padding: 0px 10px;
+    justify-content: space-between;
+    background-color: #fff;
+    font-size: x-large;
+    padding-bottom: 60px;
+}
+.main-banner .name{
+    padding-top: 120px;
+    padding-left: 40px;
+}
+.name strong{
+    padding-bottom: 0px;
+    margin: 0px;
+ }
+ .name h1{
+     padding-bottom: 0px;
+     margin: 0px;
+  }
+button{
+    padding: 8px 20px;
+    margin: 5px;
+    border-radius: 2px;
+    border: none;
+    font-size: small;
+}
+
+.main-banner .profile img{
+    width: 100%;
+    height: 380px;
+    border-radius: 100%;
+    background-color:#6c33b6;
+    padding-bottom: 30px;
+}
+
+ button{
+    padding: 8px 22px;
+    border-radius: 6px;
+    background: #6c33b6;
+    transition: all 0.2s ease-in-out;
+}
+ button a{
+    text-decoration: none;
+    font-weight: 800;
+    color: #ffffff;
+}
+ button:hover{
+    transform: scale(0.96);
+    background-color: rgb(10, 227, 10);
+}
+
+/* -- profile banner CSS ends  */
+
+
+/*  About css starts*/
+.about{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(1, 6, 25);
+    height: 200px;
+    padding: 10px;
+    /* align-items: flex-end; */
+    align-items: center;
+}
+.about .card{
+    border: #fff solid 1px;
+    margin: 10px;
+    /* padding-top: 120px; */
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    background-color: rgbrgb(1, 6, 25);
+    border-radius: 10px;
+    box-shadow: #fff 10px;
+    transition: transform 1s ease-in;
+}
+
+.about .card h1{
+    color: #fff;
+}
+.about .card p{
+    color: #fff;
+    display: none;
+}
+.about .card:hover h1{
+    display: none;
+}
+.about .card:hover p{
+    display: block;
+    padding: 10px;
+    color: #000;
+    font-weight: 700;
+}
+.about .card:hover{
+    transform: scale(1.10);
+    background-color: #b6c212;
+   
+    
+    /* max-width: 800px; */
+   
+}
+
+/*  About css ends*/
+
+
+
+/* Skills section CSS starts */
+
+
+/* Skills section CSS Ends */
+
+.skills{
+    display: flex;
+}
+.skills-section  {
+   /* background-image: url('images/image1.jpg');
+   width: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover; */
+   text-transform: uppercase;
+   text-align: center;
+   padding-bottom: 10px;
+}
+.skills-section h1{
+    padding-top: 10px;
+}
+
+.skills-container{
+    width: 500px;
+    margin: 5px auto;
+    color: #fff;
+}
+
+.skills-container li{
+    margin: 10px 0 ;
+}
+
+.skills-container h3{
+    color: #000000;
+}
+
+.skills-container h2{
+    color: rgb(0, 0, 0);
+}
+.bar {
+   background: #ffffff;
+   display: block;
+   height: 14px;
+   border-radius: 5px;
+   transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+   border: #ff00f7 1px solid;
+}
+.bar span{
+    height: 14px;
+    border-radius: 5px 0 0 5px;
+    float: left;
+    background: linear-gradient(135deg , rgb(119, 0, 193)0% , rgb(250, 0, 150)100%);
+    
+}
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+.css{
+    width: 70%;
+    animation: css 3s;
+}
+.javasvript{
+    width: 50%;
+    animation: javasvript 3s;
+}
+.bootstrap{
+    width: 70%;
+    animation: bootstrap 3s;
+}
+.jquery{
+    width: 50%;
+    animation: jquery 3s;
+}
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+.java{
+    width: 90%;
+    animation: java 3s;
+}
+.springboot{
+    width: 50%;
+    animation: springboot 3s;
+}
+.mysql{
+    width: 70%;
+    animation: mysql 3s;
+}
+
+/* Skills section CSS Ends */
+
+
+/* projects section CSS starts */
+.Projects {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #6c33b6;
+  }
+
+  .Projects h1{
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+
+  .project-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .project-card .card-content {
+    padding: 15px;
+    background-color: #ffffff;
+  }
+
+  .project-card h3 {
+    margin-top: 0;
+  }
+
+  .project-card p {
+    color: #555;
+  }
+  /* projects section CSS ends */
+
+  /* about section*/
+  
+  .about-section {
+    max-width: 600px;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  /*--media queries--*/
+
+  @media screen and (max-width:767.99px){
+
+    .nav-bar ul li a{
+        display: flex;
+        font-size:x-small;
+        font-weight: bolder;
+
+    }
+
+    .main-banner .name{
+        max-width: 300px;
+        
+    }
+    .main-banner .name em,h1{
+        font-size:medium ;
+    }
+    .main-banner .name button a{
+        font-size:x-small ;
+    }
+    .main-banner .profile img{
+        max-width: 199px;
+        max-height: 200px;
+      }
+      .main-banner .profile{
+        margin-top: 70px;
+      }
+
+      .skills-section {
+        padding: 10px;
+      }
+      .skills-section .skills-container{
+        padding: 10px;
+       
+      }
+  }
